@@ -26,7 +26,7 @@ namespace eAgenda.Tests.CompromissoModule
         public void LimparTabelas()
         {
             Db.Update("DELETE FROM TBCOMPROMISSO");
-        }
+        }        
 
         [TestMethod]
         public void DeveInserir()

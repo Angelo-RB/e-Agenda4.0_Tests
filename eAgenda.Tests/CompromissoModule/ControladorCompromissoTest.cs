@@ -86,8 +86,8 @@ namespace eAgenda.Tests.CompromissoModule
                 new TimeSpan(17, 30, 00), null);
             controladorCompromisso.InserirNovo(compromisso);
 
-            var novoCompromisso = new Compromisso("Debate", "NDD", "google.meet", new DateTime(2021, 09, 13), new TimeSpan(13, 30, 00), 
-                new TimeSpan(17, 30, 00), null);
+            var novoCompromisso = new Compromisso("Debate", "NDD", "google.meet", new DateTime(2021, 09, 13), new TimeSpan(15, 30, 00), 
+                new TimeSpan(16, 30, 00), null);
 
             //action
             controladorCompromisso.Editar(compromisso.Id, novoCompromisso);
